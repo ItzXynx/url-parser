@@ -6,3 +6,4 @@ parse and inspect urls
 python main.py "https://example.com/path?key=val&foo=bar"
 ```
 
+
