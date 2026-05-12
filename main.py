@@ -1,7 +1,6 @@
 import sys
 from urllib.parse import urlparse, parse_qs, urlencode
 
-# parse and manipulate urls
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("usage: python main.py <url>")
@@ -16,3 +15,4 @@ if __name__ == "__main__":
     print(f"path:     {parsed.path}")
     print(f"params:   {params}")
     print(f"fragment: {parsed.fragment or 'none'}")
+# updated
